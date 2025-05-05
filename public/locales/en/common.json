@@ -1,0 +1,23 @@
+{
+    "about": "About us",
+    "who_we_are": "Who we are",
+    "our_history": "Our history",
+    "programs": "Social programs",
+    "volunteering": "Volunteering",
+    "sustainability": "Sustainability",
+    "partners": "Partners",
+    "donate": "Donate",
+    "settings": "Settings",
+    "dark_mode": "Dark mode",
+    "language": "Language",
+    "donation_title": "Select your donation",
+    "custom_amount": "Custom amount",
+    "continue": "Continue",
+    "donation_details": "Donation details",
+    "full_name": "Full name",
+    "email": "Email",
+    "back": "Back",
+    "donate_now": "Donate now",
+    "amount_error": "Please enter a valid amount",
+    "amount": "Amount"
+}

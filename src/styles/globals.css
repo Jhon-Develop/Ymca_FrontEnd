@@ -1,26 +1,47 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+html {
+    scroll-behavior: smooth;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme static {
+    /* Colors */
+    --color-ymca-white: #F5F5F5;
+    --color-ymca-black: #0D0D0D;
+    --color-ymca-gray: #E5E4E2;
+    --color-ymca-yellow: #FBCD6C;
+    --color-ymca-orange: #F18C24;
+    --color-ymca-blue: #548DB4;
+    --color-ymca-celeste: #59ABCF;
+    --color-ymca-violet: #A58AB5;
+    --color-ymca-orchid: #B87EA0;
+    --color-ymca-fuchsia: #E0688E;
+    --color-ymca-pink: #F4A9C9;
+    --color-ymca-red: #E26A6F;
+    --color-ymca-green: #58B684;
+    --color-ymca-lima: #AAD181;
+
+    /* Breakpoints */
+    --breakpoint-sm: 640px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+    --breakpoint-2xl: 1536px;
+
+    /* Font families */
+    --font-nunito: "Nunito", sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Ocultar spinners en Chrome, Safari, Edge */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Ocultar spinners en Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
 }

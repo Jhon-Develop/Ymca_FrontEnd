@@ -1,0 +1,23 @@
+{
+    "about": "Conócenos",
+    "who_we_are": "¿Quiénes somos?",
+    "our_history": "Nuestra historia",
+    "programs": "Programas sociales",
+    "volunteering": "Voluntariado",
+    "sustainability": "Planeta sostenible",
+    "partners": "Aliados",
+    "donate": "Donaciones",
+    "settings": "Configuración",
+    "dark_mode": "Modo oscuro",
+    "language": "Idioma",
+    "donation_title": "Selecciona tu donación",
+    "custom_amount": "Cantidad personalizada",
+    "continue": "Continuar",
+    "donation_details": "Detalles de donación",
+    "full_name": "Nombre completo",
+    "email": "Correo electrónico",
+    "back": "Volver",
+    "donate_now": "Donar ahora",
+    "amount_error": "Por favor ingresa un monto válido",
+    "amount": "Monto"
+}
